@@ -1,6 +1,6 @@
-defmodule FRDomain do
+defmodule Ch1 do
   @moduledoc """
-  Documentation for FRDomain.
+  Documentation for Ch1.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule FRDomain do
 
   ## Examples
 
-      iex> FRDomain.hello
+      iex> Ch1.hello
       :world
 
   """
