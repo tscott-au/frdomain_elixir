@@ -2,7 +2,6 @@ defmodule Listing1_2.Test do
     use ExUnit.Case, async: true
     
     alias Listing1_2.Account
-    alias Listing1_2.CheckingAccount
     alias Listing1_2.AccountFactory
     alias Listing1_2.AccountService
 
@@ -29,7 +28,7 @@ defmodule Listing1_2.Test do
       account1 = AccountFactory.new(42)
       account2 = AccountFactory.new("don't panic")
       result = AccountService.transfer(account1, account2, 42.42)
-      assert result === 42.42
+      assert result === {42, "don't panic", 42.42}
     end
 
 

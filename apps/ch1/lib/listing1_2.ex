@@ -3,6 +3,10 @@ defmodule Listing1_2 do
         @moduledoc """
         Modules can define structs. Structs are immutable
         We don't have inheritance, but we can use composition.
+
+        Here we compose the specalised accounts into the account, this is the inverse of Listing1_1
+        We also use type defs so that analysis can be done via the dialyzer tool
+
         References:
         [A sort of inheritance for struct?](https://elixirforum.com/t/a-sort-of-inheritance-for-struct/942/4)
         """
@@ -50,9 +54,9 @@ defmodule Listing1_2 do
     end
     
     defmodule AccountService do
-        @spec transfer(Account.t, Account.t, float ) :: float
+        @spec transfer(Account.t, Account.t, float ) :: {String.t, String.t, float}
         def transfer(from, to, amount) do
-            amount
+            {from.no, to.no, amount}
         end
     end
 end

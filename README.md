@@ -4,7 +4,7 @@
 
 
 ## Purpose
-Translate the concepts presented in the Functional and Reactive Domain Modeling book into an elixir language implementation.
+Translate the Scalar language concepts presented in the Functional and Reactive Domain Modeling book into an elixir language implementation.
 
 ## Related work
 A Scala implementation is provided at [https://github.com/debasishg/frdomain](https://github.com/debasishg/frdomain)
