@@ -1,21 +1,11 @@
 # FRDomain
 
-**TODO: Add description**
+**[Elixir](https://elixir-lang.org) code repo for [Functional and Reactive Domain Modeling](https://www.manning.com/books/functional-and-reactive-domain-modeling)**
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `frdomain_elixir` to your list of dependencies in `mix.exs`:
+## Purpose
+Translate the concepts presented in the Functional and Reactive Domain Modeling book into an elixir language implementation.
 
-```elixir
-def deps do
-  [
-    {:frdomain_elixir, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/frdomain_elixir](https://hexdocs.pm/frdomain_elixir).
+## Related work
+A Scala implementation is provided at [https://github.com/debasishg/frdomain](https://github.com/debasishg/frdomain)
 
